@@ -1,0 +1,33 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    background-color: #75F4F4;
+}
+
+h1 {
+    text-align: center;
+    background-color: #D17B88;
+    color: black;
+    margin: 20px;
+    border: 20px;
+}
+
+nav {
+    text-align: center;
+}
+
+h2 {
+    background-color: #90E0F3;
+    color: #D17B88;
+}
+
+.even {
+    background-color: #D17B88;
+}
+
+.odd {
+    background-color: #D999B9;
+}
+
+#a2 {
+    background-color: #B8B3E9;
+}

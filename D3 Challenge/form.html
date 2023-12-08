@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <style>
+        #heading {
+            background-color: darkslategray;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            border: 40px;
+            margin: 20px;
+        }
+    </style>
+    <title>Sign up!</title>
+</head>
+
+<body>
+    <h1 id="heading">Sign up!</h1>
+
+    <form action="Confirmation.html">
+
+        <label for="firstName">First name:</label>
+        <input id="firstName" type="text" required>
+
+        <br>
+        <br>
+
+        <label for="lastName">Last name:</label>
+        <input id="lastName" type="text" required>
+
+        <br>
+        <br>
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" required>
+
+        <br>
+        <br>
+
+        <label for="phone">Phone number:</label>
+        <input id="phone" type="number" required>
+
+        <br>
+        <br>
+
+        <label for="pass">Password:</label>
+        <input id="pass" type="password" required>
+
+        <br>
+        <br>
+
+        <label for="payment">Payment Plan:</label>
+        <br>
+        <label for="premium">Premium £30.99</label>
+        <input type="radio" name="payment" id="premium">
+        <br>
+        <label for="standard">Standard £24.99</label>
+        <input type="radio" name="payment" id="standard">
+
+        <br>
+        <br>
+
+        <label for="health">Do you have any health conditions?</label>
+        <br>
+        <label for="Yes">Yes:</label>
+        <input type="radio" name="health" id="Yes">
+        <br>
+        <label for="No">No:</label>
+        <input type="radio" name="health" id="No">
+
+        <br>
+        <br>
+
+        <label for="ifYes">If yes, please specify:</label>
+        <br>
+        <textarea name="ifYes" id="ifYes" cols="30" rows="5" maxlength="300"></textarea>
+
+        <br>
+        <br>
+
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+
+</body>
+
+</html>

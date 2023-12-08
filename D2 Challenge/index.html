@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Forms</title>
+</head>
+
+<body>
+    <h1>Challenge Forms</h1>
+
+    <form action="confirmation.html">
+        <label for="firstName">First Name:</label>
+        <input id="firstName" type="text" required>
+
+        <br>
+        <br>
+
+        <label for="lastName">Last Name:</label>
+        <input id="lastName" type="text" required>
+
+        <br>
+        <br>
+
+        <label for="pass">Password:</label>
+        <input id="pass" type="pass" maxlength="16" required>
+
+        <br>
+        <br>
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="john@smith.com" required>
+
+        <br>
+        <br>
+
+        <label for="file">Upload CV:</label>
+        <input id="file" type="file">
+
+        <br>
+        <br>
+
+        <label for="experience">At least 2 years experience:</label>
+        <br>
+        <label for="yes">Yes:</label>
+        <input id="yes" name="experience" Value="yes" type="radio">
+        <br>
+        <label for="no">No:</label>
+        <input id="no" name="experience" Value="no" type="radio">
+
+        <br>
+        <br>
+
+        <label for="languages">Experienced languages:</label>
+        <br>
+        <label for="python">Python:</label>
+        <input id="python" type="checkbox" name="python">
+        <br>
+        <label for="js">JavaScript:</label>
+        <input id="js" type="checkbox" name="js">
+        <br>
+        <label for="C">C:</label>
+        <input id="C" type="checkbox" name="C">
+        <br>
+        <label for="C++">C++:</label>
+        <input id="C++" type="checkbox" name="C++">
+        <br>
+        <label for="C#">C#:</label>
+        <input id="C#" type="checkbox" name="C#">
+
+        <br>
+        <br>
+
+        <label for="describe">Describe yourself (300 characters):</label>
+        <br>
+        <textarea name="describe" id="describe" cols="30" rows="10" maxlength="300"></textarea>
+
+        <br>
+        <br>
+
+        <label for="job">How did you hear about this job?</label>
+        <br>
+        <select name="job" id="job" required>
+            <option value="indeed">Indeed</option>
+            <option value="linkedIn">LinkedIn</option>
+            <option value="forums">Forums</option>
+            <option value="wordOfMouth">Word of mouth</option>
+            <option value="other">Other</option>
+        </select>
+
+        <br>
+        <br>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Complete form</button>
+    </form>
+
+
+
+
+
+</body>
+
+</html>
